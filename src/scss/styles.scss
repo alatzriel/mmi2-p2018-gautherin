@@ -1,0 +1,31 @@
+@import 'blocs/header';
+@import 'blocs/footer';
+
+@font-face {
+ font-family: "Roboto";
+ src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+*{
+  box-sizing:border-box;
+}
+
+h1 {
+  color: brown;
+  font-family: "Roboto", Arial;
+
+  &:hover {
+    color: green;
+  }
+}
+
+p {
+  background-color:red;
+  color:yellow;
+  font-size:40px;
+  padding:20px;
+  width:200px;
+}
+
+img {
+  height:100px;}
