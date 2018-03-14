@@ -3,3 +3,4 @@ export class User {
     console.log(name + ' user created');
   }
 }
+
