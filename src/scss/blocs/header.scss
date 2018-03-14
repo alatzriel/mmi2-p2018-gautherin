@@ -1,8 +1,9 @@
 .header {
-  background-color: #fff;
+  background-color: rgba(244,194,194,0.9);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   top:0;
+  left:0;
   width: 100%;
   z-index: 3;
 
@@ -15,14 +16,17 @@
   }
 
   li a {
+    font-family:DidactGothic;
     display: block;
     padding: 20px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
+    background-color: rgb(249,224,224);
+    color:#490a23;
   }
 
   li a:hover, .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: rgb(244,194,194);
   }
 
   .logo {
@@ -31,6 +35,8 @@
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+    font-family:GreatVibes;
+    color:#824265;
   }
 
   .menu {
