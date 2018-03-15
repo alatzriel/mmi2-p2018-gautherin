@@ -3,6 +3,7 @@
   flex-wrap:wrap;
   align-items:center;
   justify-content:space-evenly;
+  flex-direction:column;
   margin-top: 10px;
   text-align:justify;
   color:#823547;
@@ -21,3 +22,26 @@
  img{
   height:180px;}
 }
+
+
+@media (min-width: 65em) {
+ #about{
+   min-height:300px;
+   flex-direction:row;
+
+   p{
+     max-width:950px;
+     width:50%;
+   }
+  }
+
+  #about2 {
+    min-height:300px;
+
+    p{
+      max-width:1200px;
+      width:85%;
+    }
+  }
+}
+
