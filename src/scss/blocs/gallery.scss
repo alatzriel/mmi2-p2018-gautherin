@@ -14,5 +14,10 @@
 @media (min-width: 48em) {
   #gallery img{
     flex-basis: 33%;
+
+    &:hover{
+      webkit-filter: blur(2px);
+      filter: blur(2px);
+    }
   }
 }
