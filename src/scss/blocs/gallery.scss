@@ -1,0 +1,18 @@
+#gallery{
+  padding:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  text-align:center;
+
+  img{
+    padding:5px;
+  }
+}
+
+@media (min-width: 48em) {
+  #gallery img{
+    flex-basis: 33%;
+  }
+}

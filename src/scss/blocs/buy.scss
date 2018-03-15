@@ -1,0 +1,26 @@
+#buy{
+  height:50vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top: 10px;
+  text-align:center;
+  padding: 25px 0 25px 0;
+  background:url('../img/1.png');
+  background-size:cover;
+
+  a{
+   text-decoration:none;
+    background-color:rgba(255,255,255,0.7);
+    width:85%;
+    padding:10px;
+    font-family:GreatVibes;
+    font-size:1.5rem;
+    color:#674667;
+
+    &:hover{
+      color:#994e66;
+      background-color:rgba(247,202,201,0.7);
+    }
+  }
+}
