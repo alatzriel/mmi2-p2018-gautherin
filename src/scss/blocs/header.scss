@@ -19,7 +19,7 @@
     font-family:DidactGothic;
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
     text-decoration: none;
     background-color: rgb(249,224,224);
     color:#490a23;
@@ -104,5 +104,28 @@
   .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
   .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
+  }
+}
+
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+
+    a {
+      padding: 20px 30px;
+      background-color: rgba(244,194,194,0.9);
+      border-bottom: 0px;
+      border-right: 1px solid #f4f4f4;
+    }
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
   }
 }
