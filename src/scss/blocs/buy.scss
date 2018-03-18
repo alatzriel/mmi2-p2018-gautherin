@@ -1,4 +1,4 @@
-#buy{
+.buy{
   height:50vh;
   display:flex;
   align-items:center;
@@ -6,8 +6,17 @@
   margin-top: 10px;
   text-align:center;
   padding: 25px 0 25px 0;
-  background:url('../img/1.png');
+  background:url('../img/1_small.png');
   background-size:cover;
+
+
+  @media (min-width: 600px) {
+    background-image: url('../img/1_medium.png');
+  }
+
+  @media (min-width: 1025px) {
+    background-image: url('../img/1.png');
+  }
 
   a{
    text-decoration:none;
@@ -27,7 +36,7 @@
 
 
 @media (min-width: 48em) {
-  #buy a{
+  .buy a{
     font-size:2.1rem;
     width:auto;
     padding:25px 45px 25px 45px;

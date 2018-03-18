@@ -1,4 +1,4 @@
-#about, #about2{
+.about, .about2{
   display:flex;
   flex-wrap:wrap;
   align-items:center;
@@ -25,7 +25,7 @@
 
 
 @media (min-width: 65em) {
- #about{
+ .about{
    min-height:300px;
    flex-direction:row;
 
@@ -35,7 +35,7 @@
    }
   }
 
-  #about2 {
+  .about2 {
     min-height:300px;
 
     p{

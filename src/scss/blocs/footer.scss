@@ -10,16 +10,12 @@ footer {
   text-align:center;
 
   p{
-    margin-bottom:0px;
-    margin-top:0px;
-    width:80%;
-    padding-bottom:5px;
     font-family:DidactGothic;
     color:#824265;
-    font-size:0.7rem;
+    font-size:1rem;
 
     &:first-child{
-      padding-top:5px;
+      padding-top:15px;
     }
   }
 }

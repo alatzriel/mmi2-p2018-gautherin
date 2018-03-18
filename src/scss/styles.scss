@@ -5,6 +5,7 @@
 @import 'blocs/about';
 @import 'blocs/buy';
 @import 'blocs/gallery';
+@import 'reset';
 
 *{
   box-sizing:border-box;
@@ -13,10 +14,4 @@
 section{
   margin-left: 8px;
   margin-right: 8px;
-}
-
-body{
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom:0px;
 }

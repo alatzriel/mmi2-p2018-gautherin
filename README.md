@@ -1,3 +1,8 @@
+Projet étudiant - Site web présentant "Clow card set"
+
+
+Reprenant la base gulp ci-dessous :
+
 See project on <https://jovial-dubinsky-9c1918.netlify.com/>
 
 Note : for each instruction below, you can of course also use ```npm``` instead of ```yarn```

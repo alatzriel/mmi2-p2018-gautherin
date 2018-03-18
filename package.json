@@ -29,5 +29,8 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "reset-css": "^3.0.0",
+    "waypoints": "^4.0.1"
+  }
 }
