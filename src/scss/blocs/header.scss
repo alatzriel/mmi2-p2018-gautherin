@@ -1,3 +1,5 @@
+@import 'medias';
+
 .header {
   background-color: rgba(244,194,194,0.9);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -16,7 +18,7 @@
   }
 
   li {
-    @media (min-width: 48em) {
+    @include medium {
       float:left;
     }
   }
@@ -30,7 +32,7 @@
     background-color: rgb(249,224,224);
     color: #490a23;
 
-    @media (min-width: 48em) {
+    @include medium {
       padding: 20px 30px;
       background-color: rgba(244,194,194,0.9);
       border-bottom: 0px;
@@ -57,7 +59,7 @@
     max-height: 0;
     transition: max-height .2s ease-out;
 
-    @media (min-width: 48em) {
+    @include medium {
       clear: none;
       float: right;
     }
@@ -71,7 +73,7 @@
     position: relative;
     user-select: none;
 
-    @media (min-width : 48em) {
+    @include medium {
       display: none;
     }
   }
