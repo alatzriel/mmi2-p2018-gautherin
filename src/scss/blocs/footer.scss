@@ -1,21 +1,21 @@
-footer {
+.footer {
   background-color: rgba(244,194,194,0.9);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   width: 100%;
-  height:60px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
-  text-align:center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 
-  p{
-    font-family:DidactGothic;
-    color:#824265;
-    font-size:1rem;
+  .footer__text {
+    font-family: DidactGothic;
+    color: #824265;
+    font-size: 1rem;
 
-    &:first-child{
-      padding-top:15px;
+    &:first-child {
+      padding-top: 15px;
     }
   }
 }

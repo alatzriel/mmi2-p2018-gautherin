@@ -1,0 +1,14 @@
+$medium: 48em;
+$large: 65em;
+
+@mixin medium {
+  @media (min-width: #{$medium}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$large}) {
+    @content;
+  }
+}

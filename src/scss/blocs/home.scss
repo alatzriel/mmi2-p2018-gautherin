@@ -1,36 +1,35 @@
-.home{
-  margin-top:75px;
-  height:70vh;
-  background:url('../img/3_small.png');
-  background-size:cover;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
+@import 'medias';
 
-  @media (min-width: 600px) {
+.home {
+  margin-top: 75px;
+  height: 70vh;
+  background: url('../img/3_small.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  @include medium {
     background-image: url('../img/3_medium.png');
   }
 
-  @media (min-width: 1025px) {
+  @include large {
     background-image: url('../img/3.png');
   }
 
-  p{
-    background-color:rgba(255,255,255,0.7);
-    width:85%;
-    padding:10px;
-    font-family:GreatVibes;
-    font-size:1.8rem;
-    color:#674667;
-  }
-}
+  .home__title {
+    background-color: rgba(255,255,255,0.7);
+    width: 85%;
+    padding: 10px;
+    font-family: GreatVibes;
+    font-size: 1.8rem;
+    color: #674667;
 
-
-@media (min-width: 48em) {
-  .home p{
-    font-size:2.1rem;
-    width:auto;
-    padding:25px 45px 25px 45px;
+    @include medium {
+      font-size: 2.1rem;
+      width: auto;
+      padding: 25px 45px 25px 45px;
+    }
   }
 }

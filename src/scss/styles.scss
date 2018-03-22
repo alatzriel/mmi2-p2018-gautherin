@@ -1,17 +1,26 @@
 @import 'blocs/header';
 @import 'blocs/footer';
-@import 'blocs/fonts';
 @import 'blocs/home';
 @import 'blocs/about';
 @import 'blocs/buy';
 @import 'blocs/gallery';
 @import 'reset';
 
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-section{
+section {
   margin-left: 8px;
   margin-right: 8px;
+}
+
+@font-face {
+ font-family: "GreatVibes";
+ src: url("../fonts/GreatVibes-Regular.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "DidactGothic";
+ src: url("../fonts/DidactGothic-Regular.ttf") format("truetype");
 }
