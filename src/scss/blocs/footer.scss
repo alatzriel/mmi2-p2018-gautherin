@@ -8,14 +8,12 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-
-  .footer__text {
-    font-family: DidactGothic;
-    color: #824265;
-    font-size: 1rem;
-
-    &:first-child {
-      padding-top: 15px;
-    }
-  }
 }
+
+.footer__text {
+  font-family: DidactGothic;
+  color: #824265;
+  font-size: 1rem;
+  padding-top: 5px;
+}
+

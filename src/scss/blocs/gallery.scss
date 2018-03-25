@@ -8,31 +8,32 @@
   flex-wrap: wrap;
   text-align: center;
   flex-direction: column;
+}
 
-  .gallery__img {
-    padding: 5px;
+.gallery__img {
+  padding: 5px;
 
-    @include medium {
-      float: left;
+  @include medium {
+    float: left;
 
-      &:nth-child(3n+1) {
-        clear: left;
-      }
+    &:nth-child(3n+1) {
+      clear: left;
+    }
 
-      &:hover{
-        webkit-filter: blur(2px);
-        filter: blur(2px);
-      }
+    &:hover{
+      webkit-filter: blur(2px);
+      filter: blur(2px);
     }
   }
-
-  .gallery__title {
-    font-weight: normal;
-    font-family: GreatVibes;
-    font-size: 1.8rem;
-    color: #674667;
-    background-color: #f9e0e0;
-    padding: 15px 50px 15px 50px;
-  }
 }
+
+.gallery__title {
+  font-weight: normal;
+  font-family: GreatVibes;
+  font-size: 1.8rem;
+  color: #674667;
+  background-color: #f9e0e0;
+  padding: 15px 50px 15px 50px;
+}
+
 
