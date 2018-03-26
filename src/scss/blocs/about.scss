@@ -38,15 +38,15 @@
   }
 }
 
-.about__img{
-  display:none;
+.about__img {
+  display: none;
 
   @include large {
-    display:block;
+    display: block;
   }
 }
 
-.about__excertCarac{
-  padding:5px 0px 5px 0px;
+.about__excertCarac {
+  padding: 5px 0px 5px 0px;
 }
 
