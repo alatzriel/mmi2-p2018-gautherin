@@ -8,15 +8,15 @@
   margin-top: 10px;
   text-align: center;
   padding: 25px 0 25px 0;
-  background: url('../img/1_small.png');
+  background: url('../img/1_small.jpg');
   background-size: cover;
 
   @include medium {
-    background-image: url('../img/1_medium.png');
+    background-image: url('../img/1_medium.jpg');
   }
 
   @include large {
-    background-image: url('../img/1.png');
+    background-image: url('../img/1.jpg');
   }
 }
 

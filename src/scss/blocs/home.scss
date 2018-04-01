@@ -3,7 +3,7 @@
 .home {
   margin-top: 75px;
   height: 80vh;
-  background: url('../img/3_small.png');
+  background: url('../img/3_small.jpg');
   background-size: cover;
   display: flex;
   align-items: center;
@@ -11,11 +11,11 @@
   text-align: center;
 
   @include medium {
-    background-image: url('../img/3_medium.png');
+    background-image: url('../img/3_medium.jpg');
   }
 
   @include large {
-    background-image: url('../img/3.png');
+    background-image: url('../img/3.jpg');
   }
 }
 
