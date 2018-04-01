@@ -106,26 +106,25 @@
 
 .header__btn {
   display: none;
-}
 
-.header__btn:checked ~ .header__menu {
-  max-height: 240px;
-}
+  &:checked ~ .header__menu {
+    max-height: 240px;
+  }
 
-.header__btn:checked ~ .header__icon .header__navicon {
-  background: transparent;
-}
+  &:checked ~ .header__icon .header__navicon {
+    background: transparent;
+  }
 
-.header__btn:checked ~ .header__icon .header__navicon:before {
-  transform: rotate(-45deg);
-}
+  &:checked ~ .header__icon .header__navicon:before {
+    transform: rotate(-45deg);
+  }
 
-.header__btn:checked ~ .header__icon .header__navicon:after {
-  transform: rotate(45deg);
-}
+  &:checked ~ .header__icon .header__navicon:after {
+    transform: rotate(45deg);
+  }
 
-.header__btn:checked ~ .header__icon:not(.steps) .header__navicon:before,
-.header__btn:checked ~ .header__icon:not(.steps) .header__navicon:after {
-  top: 0;
+  &:checked ~ .header__icon:not(.steps) .header__navicon:before, &:checked ~ .header__icon:not(.steps) .header__navicon:after {
+    top: 0;
+  }
 }
 
