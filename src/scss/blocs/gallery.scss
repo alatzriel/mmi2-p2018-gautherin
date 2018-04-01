@@ -1,5 +1,3 @@
-@import 'medias';
-
 .gallery {
   padding: 15px;
   display: flex;
@@ -20,13 +18,8 @@
   padding: 5px;
 
 
-  @include medium {
+  @media (min-width:62em) {
     flex-basis: 26%;
-
-    &:hover {
-      webkit-filter: blur(2px);
-      filter: blur(2px);
-    }
   }
 }
 

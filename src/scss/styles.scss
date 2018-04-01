@@ -4,7 +4,9 @@
 @import 'blocs/about';
 @import 'blocs/buy';
 @import 'blocs/gallery';
-@import 'reset';
+@import 'global/fonts';
+@import 'global/medias';
+@import '../vendors/reset';
 
 * {
   box-sizing: border-box;
@@ -15,12 +17,3 @@ section {
   margin-right: 8px;
 }
 
-@font-face {
- font-family: "GreatVibes";
- src: url("../fonts/GreatVibes-Regular.ttf") format("truetype");
-}
-
-@font-face {
- font-family: "DidactGothic";
- src: url("../fonts/DidactGothic-Regular.ttf") format("truetype");
-}

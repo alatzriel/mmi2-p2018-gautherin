@@ -30,7 +30,6 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "npm": "^5.8.0",
     "reset-css": "^3.0.0",
     "waypoints": "^4.0.1"
   }

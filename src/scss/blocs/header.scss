@@ -1,4 +1,4 @@
-@import 'medias';
+@import 'global/medias';
 
 .header {
   background-color: rgba(244,194,194,0.9);
@@ -10,7 +10,7 @@
   z-index: 3;
 }
 
-.header__menuLi {
+.header__menuItem {
   @include medium {
     float:left;
   }
